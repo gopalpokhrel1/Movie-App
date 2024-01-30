@@ -23,7 +23,7 @@
 
 .list{
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
 
     list-style: none;
 }
@@ -61,7 +61,7 @@
 
 
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 650px) {
 
     
 

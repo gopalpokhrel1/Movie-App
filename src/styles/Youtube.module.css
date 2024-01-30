@@ -1,0 +1,18 @@
+.container{
+    width: 100%;
+    height: calc(100vh - 7rem);
+
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 650px) {
+
+    .container{
+        height: 100vh;
+    }
+}

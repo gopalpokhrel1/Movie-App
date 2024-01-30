@@ -1,0 +1,46 @@
+.home{
+    width: 100%;
+    height: calc(100vh - 7rem);
+
+    background-image: url('../../public/bg-image.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    gap: 2rem;
+
+    padding-left: 3rem;
+    
+
+}
+
+.paragraph{
+    color: white;
+}
+
+.button{
+    width: 5rem;
+    height: 2rem;
+    border: 2px solid #ffffff;
+    border-top-left-radius: 1rem;
+   border-bottom-right-radius: 1rem;  
+}
+
+.button:hover{
+    background-color: #192536;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 650px) {
+
+.home{
+  height: 100vh;
+}
+
+}
